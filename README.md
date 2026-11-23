@@ -25,6 +25,8 @@ mkdir -p "$HOME/.agents/skills"
 cp -R game-promo-design-skill/game-promo-design "$HOME/.agents/skills/"
 ```
 
+也可以从 GitHub 的 **Code → Download ZIP** 下载，解压后把里面的 `game-promo-design` 文件夹复制到上述 Skill 目录。
+
 已经安装同名 Skill 时，请先核对现有版本，按需更新同一个目录。只想在当前仓库启用时，将文件夹放在该仓库的 `.agents/skills/` 下。若 Skill 选择器还未显示，重启 Codex 后再看。其他宿主按其 Skill 加载目录放置同一文件夹。[Codex Skills 官方文档](https://developers.openai.com/codex/skills)
 
 ## 怎么用
